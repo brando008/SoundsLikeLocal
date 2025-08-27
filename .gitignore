@@ -1,3 +1,4 @@
 data/
 ner/ner_data
 venv/
+*_pycache_
