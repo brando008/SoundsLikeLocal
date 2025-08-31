@@ -1,4 +1,5 @@
 data/
-ner/ner_data
 venv/
 _pycache_/
+ner/model_output
+ner/models
