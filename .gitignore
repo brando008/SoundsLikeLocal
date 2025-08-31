@@ -4,3 +4,4 @@ _pycache_/
 __pycache__/
 ner/model_output
 output/
+.env
