@@ -10,9 +10,11 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 
-client_id = os.getenv("CLIENT_ID")
-client_secret = os.getenv("CLIENT_SECRET")
-
+def init_local_spotify():
+    return spotipy.Spotify(auth_manager=SpotifyClientCredentials(
+        client_id=os.getenv("CLIENT_ID"),
+        client_secret=os.getenv("CLIENT_SECRET")
+    ))
 
 def init_spotify():
     return spotipy.Spotify(auth_manager=SpotifyClientCredentials(
