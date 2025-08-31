@@ -1,5 +1,5 @@
 data/
 venv/
 _pycache_/
+__pycache__/
 ner/model_output
-ner/models
