@@ -30,8 +30,7 @@ SoundsLike utilizes Natural Language Processing (NLP) for understanding user que
 
 ## Online repository
 
-This was a rework of the original repo to ![soundslike](https://github.com/HallowsYves/soundslike)
-for future reference. We have our full commit history and version of this app over there.
+This was a rework of the original repo, ![soundslike](https://github.com/HallowsYves/soundslike), for future reference. We have our full commit history and version of this app over there.
 
 ## Built with
 
