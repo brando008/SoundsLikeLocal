@@ -17,18 +17,20 @@ SoundsLike utilizes Natural Language Processing (NLP) for understanding user que
 - It then uses K-Nearest Neighbors (KNN) to find songs in the dataframe that have a vector closest to your input vector.
 - Finally, the system visualizes the results by displaying the qualities of your input song versus the recommended songs in a radar chart and a 2D plot.
 
-![](media/KNN_Graph.png)
-![](media/Vector.png)
+<p align="center">
+  <img src="media/KNN_Graph.png" alt="KNN Graph" width="400"/>
+  <img src="media/Vector.png" alt="Vector Graph" width="400"/>
+</p>
 
 ## Dataset
 
-![Dataset - 🎧 500K+ Spotify Songs with Lyrics,Emotions & More](https://www.kaggle.com/datasets/devdope/900k-spotify)
+[Dataset - 🎧 500K+ Spotify Songs with Lyrics,Emotions & More](https://www.kaggle.com/datasets/devdope/900k-spotify)
 
 ## Team/Contributors
 
-- ![Brandon Aguilar](https://github.com/brando008)
-- ![Yves Velasquez](https://github.com/HallowsYves)
-- ![May Chan](https://github.com/mchan78)
+- [Brandon Aguilar](https://github.com/brando008)
+- [Yves Velasquez](https://github.com/HallowsYves)
+- [May Chan](https://github.com/mchan78)
 
 ## Online Repo
 
