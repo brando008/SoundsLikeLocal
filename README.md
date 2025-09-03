@@ -25,15 +25,14 @@ SoundsLike utilizes Natural Language Processing (NLP) for understanding user que
 ## Dataset
 
 ![Dataset - 🎧 500K+ Spotify Songs with Lyrics,Emotions & More](https://www.kaggle.com/datasets/devdope/900k-spotify)
-<a href="https://www.kaggle.com/datasets/devdope/900k-spotify" target="_blank">Dataset - 🎧 500K+ Spotify Songs with Lyrics,Emotions & More</a>
 
 ## Team/Contributors
 
-- [![Brandon Aguilar](https://img.shields.io/static/v1?label=Brandon%20Aguilar&message=&color=1DB954&logo=github&logoColor=white&style=flat)](https://github.com/brando008)
-- [![Yves Velasquez](https://img.shields.io/static/v1?label=Yves%20Velasquez&message=&color=1DB954&logo=github&logoColor=white&style=flat)](https://github.com/HallowsYves)
-- [![May Chan](https://img.shields.io/static/v1?label=May%20Chan&message=&color=1DB954&logo=github&logoColor=white&style=flat)](https://github.com/mchan78)
+- [Brandon Aguilar](https://github.com/brando008)
+- [Yves Velasquez](https://github.com/HallowsYves)
+- [May Chan](https://github.com/mchan78)
 
 ## Online Repo
 
-This was a rework of the original repo to !<a href="https://github.com/HallowsYves/soundslike" target="_blank">soundslike</a>
+This was a rework of the original repo to ![soundslike](https://github.com/HallowsYves/soundslike)
 for personal exploration. We have our full commit history and version of this app over there.
