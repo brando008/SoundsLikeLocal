@@ -18,8 +18,8 @@ SoundsLike utilizes Natural Language Processing (NLP) for understanding user que
 - Finally, the system visualizes the results by displaying the qualities of your input song versus the recommended songs in a radar chart and a 2D plot.
 
 <p align="center">
-  <img src="media/KNN_Graph.png" alt="KNN Graph" width="500"/>
-  <img src="media/Vector.png" alt="Vector Graph" width="300"/>
+  <img src="media/KNN_Graph.png" alt="KNN Graph" width="600"/>
+  <img src="media/Vector.png" alt="Vector Graph" width="400"/>
 </p>
 
 ## Team/Contributors
@@ -31,7 +31,7 @@ SoundsLike utilizes Natural Language Processing (NLP) for understanding user que
 ## Online repository
 
 This was a rework of the original repo to ![soundslike](https://github.com/HallowsYves/soundslike)
-for personal exploration. We have our full commit history and version of this app over there.
+for future reference. We have our full commit history and version of this app over there.
 
 ## Built with
 
