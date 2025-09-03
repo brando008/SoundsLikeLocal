@@ -22,17 +22,21 @@ SoundsLike utilizes Natural Language Processing (NLP) for understanding user que
   <img src="media/Vector.png" alt="Vector Graph" width="300"/>
 </p>
 
-## Dataset
-
-![Dataset - 🎧 500K+ Spotify Songs with Lyrics,Emotions & More](https://www.kaggle.com/datasets/devdope/900k-spotify)
-
 ## Team/Contributors
 
 - [Brandon Aguilar](https://github.com/brando008)
 - [Yves Velasquez](https://github.com/HallowsYves)
 - [May Chan](https://github.com/mchan78)
 
-## Online Repo
+## Online repository
 
 This was a rework of the original repo to ![soundslike](https://github.com/HallowsYves/soundslike)
 for personal exploration. We have our full commit history and version of this app over there.
+
+## Built with
+
+![Dataset - 🎧 500K+ Spotify Songs with Lyrics,Emotions & More](https://www.kaggle.com/datasets/devdope/900k-spotify)
+
+![](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![](https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black)
