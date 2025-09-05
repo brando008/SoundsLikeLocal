@@ -6,7 +6,8 @@ Simply enter a prompt, adjust the number of recommendations you want, and get ne
 
 **Example**: _"Chill songs like Moon by Kanye"_
 
-![](media/SoundsLikeShowcase.gif)
+![](media/SoundsLikeShowcaseSpeed.gif)
+_This is a sped up version, it usually takes 10-15 seconds to load_
 
 ## How it works
 
