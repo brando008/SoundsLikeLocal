@@ -7,7 +7,7 @@ from data_utils import load_data
 from sentence_transformers import SentenceTransformer
 import numpy as np
 from sklearn.preprocessing import normalize
-from spotipy_util import init_local_spotify, get_spotify_track
+from spotipy_util import init_spotify, get_spotify_track
 
 # Load models and data once
 @st.cache_resource
@@ -32,7 +32,7 @@ def encode_image_to_base64(image_path):
         return base64.b64encode(img_file.read()).decode("utf-8")
     
 # App Setup
-spotify = init_local_spotify()
+spotify = init_spotify()
 st.set_page_config(page_title="SoundsLike", layout="wide")
 st.title("🎵 SoundsLike: Music Recommendation Engine")
 st.caption("Generate music recommendations from natural language prompts like *'sad songs like Moon by Kanye West'*")
