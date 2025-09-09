@@ -41,7 +41,7 @@ mood_to_index = {
     "neutral": 88822
 }
 
-mood_df = load_data("data/scaled_data.csv", index=True)
+mood_df = load_data("data_test/scaled_data_reduced.csv", index=True)
 
 features = ["Positiveness_T", "Danceability_T", "Energy_T", "Popularity_T", "Liveness_T", "Acousticness_T", "Instrumentalness_T"]
 
@@ -60,7 +60,7 @@ for mood, idx in mood_to_index.items():
 
 emotion_vectors = np.array(emotion_vectors)
 
-with open("data/emotion_labels.json", "w") as f:
+with open("data_test/emotion_labels_reduced.json", "w") as f:
     json.dump(emotion_labels, f)
 
-np.save("data/emotion_vectors.npy", emotion_vectors)
+np.save("data_test/emotion_vectors_reduced.npy", emotion_vectors)

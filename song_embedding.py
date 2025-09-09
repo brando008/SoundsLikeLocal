@@ -13,7 +13,8 @@ from tqdm import tqdm
 
     *Important thing to note: embedding song_embeddings.npy takes around 2 hrs (at least for me...)
 """
-df = load_data('data/song_data.csv', index=True)
+# df = load_data('data/song_data.csv', index=True)
+df = load_data('data_test/song_data_reduced.csv', index=True)
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 def embed_song_artist(row):
@@ -25,8 +26,8 @@ tqdm.pandas()
 df["embedding"] = df.progress_apply(embed_song_artist, axis=1)
 
 embeddings_array = np.vstack(df["embedding"].values)
-np.save("data/song_embeddings.npy", embeddings_array)
+np.save("data_test/song_embeddings_reduced.npy", embeddings_array)
 
-embeddings = np.load("data/song_embeddings.npy")
+embeddings = np.load("data_test/song_embeddings_reduced.npy")
 
 assert len(df) == len(embeddings), "mismatch between rows and embeddings"

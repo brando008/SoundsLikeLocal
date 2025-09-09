@@ -14,15 +14,15 @@ from spotipy_util import init_local_spotify, get_spotify_track
 def load_model_and_data():
     embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
-    df_scaled_features = load_data("data/scaled_data.csv", index=True)
-    df_song_info = load_data("data/song_data.csv", index=True)
+    df_scaled_features = load_data("data_test/scaled_data_reduced.csv", index=True)
+    df_song_info = load_data("data_test/song_data_reduced.csv", index=True)
 
-    song_embed = np.load("data/song_embeddings.npy")
+    song_embed = np.load("data_test/song_embeddings_reduced.npy")
     song_embeddings = normalize(song_embed)
 
-    scaled_emotions = np.load("data/emotion_vectors.npy")
+    scaled_emotions = np.load("data_test/emotion_vectors_reduced.npy")
 
-    with open("data/emotion_labels.json", "r") as f:
+    with open("data_test/emotion_labels_reduced.json", "r") as f:
         emotion_labels = json.load(f)
 
     return embedder, df_scaled_features, df_song_info, song_embeddings, scaled_emotions, emotion_labels
