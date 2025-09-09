@@ -31,7 +31,7 @@ label_to_id = {label: i for i, label in enumerate(label_list)}
 id_to_label = {i: label for label, i in label_to_id.items()}
 
 # tokenize
-model_name = "distilbert-base-uncased"
+model_name = "prajjwal1/bert-mini"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 def tokenize_and_align(example):
@@ -134,6 +134,6 @@ metrics = compute_metrics((predictions, labels))
 print(metrics)
 
 # save
-save_path = os.path.join(BASE_DIR, "models", "distilbert-ner")
+save_path = os.path.join(BASE_DIR, "models", "bert-mini")
 trainer.save_model(save_path)
 tokenizer.save_pretrained(save_path)
