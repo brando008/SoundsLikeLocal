@@ -7,7 +7,7 @@ Simply enter a prompt, adjust the number of recommendations you want, and get ne
 **Example**: _"Chill songs like Moon by Kanye"_
 
 ![](media/SoundsLikeShowcaseSpeed.gif)
-_This is a sped up version, it usually takes 10-15 seconds to load_
+_The demo is using only 10K songs, with bert-mini to increase speed_
 
 ## How it works
 
